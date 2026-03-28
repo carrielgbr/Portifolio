@@ -1,3 +1,15 @@
+/* Sobre Mim em colunas */
+.sobre-mim-colunas {
+    display: flex;
+    gap: 2rem;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 1.5rem;
+}
+.sobre-mim-coluna {
+    flex: 1;
+    min-width: 220px;
+}
 /* Reset básico */
 * {
     margin: 0;
